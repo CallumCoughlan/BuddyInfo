@@ -9,11 +9,15 @@ public class AddressBook {
         addressBook.removeBuddy(buddyInfo);
     }
 
+    public AddressBook() {
+        addressBook = new LinkedList<>();
+    }
+
     public void addBuddy(BuddyInfo buddyInfo) {
         this.addressBook.add(buddyInfo);
     }
 
     public void removeBuddy(BuddyInfo buddyInfo) {
-        this.addressBook.add(buddyInfo);
+        this.addressBook.remove(buddyInfo);
     }
 }
