@@ -21,4 +21,8 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo buddyInfo) {
         this.addressBook.remove(buddyInfo);
     }
+
+    public void newMethod() {
+
+    }
 }
